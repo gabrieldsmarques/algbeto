@@ -1,3 +1,4 @@
+#estrutura pra armazenar os dados
 professores = []
 
 def cad_professor(nome, matricula, data_nascimento, sexo, endereco, telefone, email):
@@ -12,5 +13,6 @@ def cad_professor(nome, matricula, data_nascimento, sexo, endereco, telefone, em
     }
     professores.append(professor)
     
+#função de listagem, ela retorna a estrutura "professores", exibindo os dados em formato de lista
 def listar_professores():
     return professores
